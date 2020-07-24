@@ -13,4 +13,9 @@ def help_command
   prompt
 end
 
+def list
+  
+end
+
+
 binding.pry
