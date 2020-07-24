@@ -51,7 +51,7 @@ def run(songs)
   prompt
   input = gets.strip
   life = 1
-  while life > 0
+  while life =1
     if input === "help"
       help
       run(songs)
@@ -63,7 +63,7 @@ def run(songs)
       run(songs)
     elsif input === "exit"
       exit_jukebox
-      life -= 1
+      break
     end
   end
 end
