@@ -37,7 +37,7 @@ def play(songs)
   if songs.include?(input)
     puts "Playing #{input}"
   elsif input.to_i <= songs.length && input.to_i > 0
-    binding.pry
+    puts "Playing #{song[input.to_i - 1}"
   end
 end
 
