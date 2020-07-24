@@ -38,7 +38,7 @@ def play(songs)
   if songs.include?(input)
     puts "Playing #{input}"
   elsif songs.include?(input.to_i+1) && input.to_i > 0 
-  
+end
 end
 
 def exit_jukebox
