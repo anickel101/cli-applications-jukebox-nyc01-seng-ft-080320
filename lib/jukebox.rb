@@ -36,7 +36,9 @@ def play(songs)
   input = gets.strip
   if songs.include?(input)
     puts "Playing #{input}"
-  elsif songs.length.include?(input.to_i+1) && input.to_i > 0 
+  elsif input.to_i <= songs.length && input
+  
+  songs.length.include?(input.to_i+1) && input.to_i > 0 
   end
 end
 
