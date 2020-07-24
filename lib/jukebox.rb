@@ -54,10 +54,13 @@ def run(songs)
   while life > 0
     if input === "help"
       help
+      run(songs)
     elsif input === "list"
       list(songs)
+      run(songs)
     elsif input === "play"
       play(songs)
+      run(songs)
     elsif input === "exit"
       exit_jukebox
       life -= 1
