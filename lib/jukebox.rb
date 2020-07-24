@@ -51,7 +51,7 @@ def run(songs)
   prompt
   input = gets.strip
   life = 1
-  while life = 1
+  while life > 0
     if input === "help"
       help
     elsif input === "list"
