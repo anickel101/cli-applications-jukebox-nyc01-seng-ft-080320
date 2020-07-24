@@ -26,8 +26,10 @@ def help_command
 end
 
 def list(songs)
-  songs.each_wi
-  
+  count = 1
+  songs.each do |song|
+    puts "#{count}. #{song}"
+  end
 end
 
 
