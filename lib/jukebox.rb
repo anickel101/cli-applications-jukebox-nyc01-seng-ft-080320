@@ -25,7 +25,8 @@ def help_command
   prompt
 end
 
-def list
+def list(songs)
+  songs.each_wi
   
 end
 
