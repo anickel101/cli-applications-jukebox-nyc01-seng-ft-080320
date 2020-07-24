@@ -25,15 +25,8 @@ def help_command
   prompt
 end
 
-def list(songs)
-  count = 1
-  songs.each do |song|
-    puts "#{count}. #{song}"
-    count += 1
-  end
-end
 
-def lists(songs)
+def list(songs)
   songs.each_with_index do |song, index|
     puts "#{index+1}. #{song}"
   end
