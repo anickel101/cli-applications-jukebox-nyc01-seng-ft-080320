@@ -34,7 +34,7 @@ def list(songs)
 end
 
 def lists(songs)
-  songs.each_with_index do |song|
+  songs.each_with_index do |song, index|
     puts "#{count}. #{song}"
     count += 1
   end
