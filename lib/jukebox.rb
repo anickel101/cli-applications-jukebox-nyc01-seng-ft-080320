@@ -46,3 +46,17 @@ end
 def exit_jukebox
   puts "Goodbye"
 end
+
+def run
+  prompt
+  input = gets.strip
+  if input === "help"
+    help
+  elsif input === "list"
+    list(songs)
+  elsif input === "play"
+    play(songs)
+  elsif input === "exit"
+    exit_jukebox
+  end
+end
