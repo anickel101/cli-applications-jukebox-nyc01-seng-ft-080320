@@ -64,5 +64,6 @@ def run(songs)
     elsif input === "exit"
       exit_jukebox
       life -= 1
+    end
   end
 end
