@@ -37,8 +37,7 @@ def play(songs)
   if songs.include?(input)
     puts "Playing #{input}"
   elsif input.to_i <= songs.length && input.to_i > 0
-  
-  songs.length.include?(input.to_i+1) && input.to_i > 0 
+    binding.pry
   end
 end
 
