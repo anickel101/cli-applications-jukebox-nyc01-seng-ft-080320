@@ -36,7 +36,7 @@ def play(songs)
   input = gets.strip
   if songs.include?(input)
     puts "Playing #{input}"
-  elsif input.to_i <= songs.length && input
+  elsif input.to_i <= songs.length && input.to_i > 0
   
   songs.length.include?(input.to_i+1) && input.to_i > 0 
   end
@@ -47,4 +47,4 @@ def exit_jukebox
 end
 
 
-#binding.pry
+binding.pry
