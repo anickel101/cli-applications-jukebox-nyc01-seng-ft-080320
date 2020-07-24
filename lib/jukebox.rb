@@ -60,6 +60,8 @@ def run(songs)
     elsif input === "exit"
       exit_jukebox
       break
+    else
+      puts "Invalid entry"
     end
   end
 end
