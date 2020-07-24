@@ -4,7 +4,7 @@ def prompt
   puts "Please enter a command:"
 end
 
-def help
+def help_command
   puts "I accept the following commands:"
   puts "- help : displays this help message"
   puts "- list : displays a list of songs you can play"
