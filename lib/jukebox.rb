@@ -1,5 +1,6 @@
 def prompt
-  puts "Please enter a command"
+  puts "Please enter a command:"
+end
 
 def help
   puts "I accept the following commands:"
