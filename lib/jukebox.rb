@@ -33,5 +33,12 @@ def list(songs)
   end
 end
 
+def lists(songs)
+  songs.each_with_index do |song|
+    puts "#{count}. #{song}"
+    count += 1
+  end
+end
+
 
 binding.pry
