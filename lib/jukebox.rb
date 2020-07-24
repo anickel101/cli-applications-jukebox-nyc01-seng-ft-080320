@@ -1,3 +1,5 @@
+require 'pry'
+
 def prompt
   puts "Please enter a command:"
 end
@@ -10,3 +12,5 @@ def help
   puts "- exit : exit this program"
   prompt
 end
+
+binding.pry
